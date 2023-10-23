@@ -1,0 +1,64 @@
+* {
+    /* font-size: large; */
+    font-family: sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(12, 27, 69);
+}
+
+nav {
+    font-size:  28px;
+    text-align: left;
+    text-shadow: 1cap;
+    color: aliceblue;
+    background-color: black;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white:aliceblue
+}
+
+.back1 {
+    background-image: url("assets/nattu-adnan-atSUvc1hMwk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.self_photo {
+    height: 500px;
+    float: right;
+}
+
+.back2 {
+    background-image: url("assets/donna-elliot-dwXNSRmxHQY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    display: block;
+}
+
+.absect {
+    background-color: aliceblue;
+
+}
