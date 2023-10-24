@@ -19,38 +19,42 @@ html, body {
     /* background-color: rgb(12, 27, 69); */
 }
 
-/* nav {
-    font-size:  28px;
-    text-align: left;
-    text-shadow: 1cap;
-    color: aliceblue;
-    background-color: black;
-    height: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-} */
-
 .header {
     display: flex;
     justify-content: space-between;
-    /* margin: 2rem; */
+    margin: 2rem;
+    border-radius: .5rem;
     padding-inline: 2rem 3rem;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(6, 7, 38);
 }
 
 .hdr_ul {
     display: flex;
     list-style: none;
     gap: 1rem;
+    overflow: hidden;
+}
+
+.hdr_li {
+    float: right;
 }
 
 .hdr_li a{
+    display: block;
     text-transform: uppercase;
     font-size: 18px;
     color: white;
     text-decoration: none;
+}
+
+.hdr_li a:hover{
+    /* color: beige; */
+    border-radius: .5rem;
+    background-color: rgb(105, 103, 103);
+}
+.active {
+    background-color: rgb(147, 66, 66);
 }
 
 .back1 {
@@ -61,7 +65,9 @@ html, body {
 }
 
 .self_photo {
-    height: 500px;
+    display: flex;
+    border-radius: .5rem;
+    height: 400px;
     float: right;
 }
 
@@ -79,4 +85,8 @@ section {
 .absect {
     background-color: aliceblue;
 
+}
+
+.index-main {
+    margin: 2rem;
 }
