@@ -1,7 +1,7 @@
 * {
     /* font-size: large; */
     font-family: sans-serif;
-    padding: 0px;
+    /* padding: 0px; */
     box-sizing: border-box;
 }
 
@@ -66,9 +66,10 @@ html, body {
 
 .self_photo {
     display: flex;
+    margin: 2rem;
+    float: right;
     border-radius: .5rem;
     height: 400px;
-    float: right;
 }
 
 .back2 {
@@ -88,5 +89,22 @@ section {
 }
 
 .index-main {
-    margin: 2rem;
+    margin: 2rem 3rem;
+}
+
+.index-main #title {
+    display: flex;
+    color: aliceblue;
+    padding-inline: 2rem;
+    background-color: rgb(6, 7, 38, 0.8);
+    border-radius: .5rem;
+}
+
+blockquote {
+    display: flex;
+    margin: 2rem 3rem;
+    background-color: rgb(17, 189, 189, .90);
+    border-radius: .5rem;
+    padding-inline: 2rem;
+
 }
