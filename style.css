@@ -10,14 +10,16 @@ html, body {
     margin: 0;
 }
 
-.header {
-    font-size: x-large;
+.logo {
+    font-size: 18px;
     text-align: center;
     color: aliceblue;
-    background-color: rgb(12, 27, 69);
+    text-transform: uppercase;
+    margin: 0;
+    /* background-color: rgb(12, 27, 69); */
 }
 
-nav {
+/* nav {
     font-size:  28px;
     text-align: left;
     text-shadow: 1cap;
@@ -27,12 +29,28 @@ nav {
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 2rem; */
+    padding-inline: 2rem 3rem;
+    align-items: center;
+    background-color: gray;
 }
 
-nav li a {
+.hdr_ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.hdr_li a{
     text-transform: uppercase;
     font-size: 18px;
-    color: white:aliceblue
+    color: white;
+    text-decoration: none;
 }
 
 .back1 {
