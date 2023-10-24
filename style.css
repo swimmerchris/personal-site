@@ -1,7 +1,6 @@
 * {
     /* font-size: large; */
     font-family: sans-serif;
-    /* padding: 0px; */
     box-sizing: border-box;
 }
 
@@ -79,6 +78,13 @@ html, body {
     background-size: cover;
 }
 
+.back3 {
+    background-image: url("assets/karsten-winegeart-6NAbqcv3fpg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 section {
     display: block;
 }
@@ -103,8 +109,15 @@ section {
 blockquote {
     display: flex;
     margin: 2rem 3rem;
-    background-color: rgb(17, 189, 189, .90);
+    background-color: rgb(17, 189, 189, .50);
     border-radius: .5rem;
     padding-inline: 2rem;
 
+}
+
+footer {
+    
+    background-color: grey;
+    vertical-align: bottom;
+    position: relative;
 }
