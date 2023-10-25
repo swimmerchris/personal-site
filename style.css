@@ -10,7 +10,7 @@ html, body {
 }
 
 main {
-    margin-bottom: 10vh;
+    margin-bottom: auto;
 }
 
 .logo {
@@ -165,7 +165,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 7vh;
+    height: 6vh;
     background-color: rgb(6, 7, 38);
     color: rgb(60, 91, 119);
     text-align: center;
@@ -173,5 +173,5 @@ footer {
 
 footer a img {
     height: 6vh;
-    padding: 10px;
+    padding: 8px;
 }
