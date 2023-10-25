@@ -1,38 +1,66 @@
 * {
     /* font-size: large; */
     font-family: sans-serif;
-    padding: 0px;
     box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
 }
 
-.header {
-    font-size: x-large;
-    text-align: center;
-    color: aliceblue;
-    background-color: rgb(12, 27, 69);
+main {
+    margin-bottom: auto;
 }
 
-nav {
-    font-size:  28px;
-    text-align: left;
-    text-shadow: 1cap;
+.logo {
+    font-size: 18px;
+    text-align: center;
     color: aliceblue;
-    background-color: black;
-    height: 50px;
-    cursor: pointer;
     text-transform: uppercase;
+    margin: 0;
+    /* background-color: rgb(12, 27, 69); */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    border-radius: .5rem;
+    padding-inline: 2rem 3rem;
+    align-items: center;
+    background-color: rgb(6, 7, 38);
+}
+
+.hdr_ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.hdr_li {
+    float: right;
+}
+
+.hdr_li a{
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
     text-decoration: none;
 }
 
-nav li a {
-    text-transform: uppercase;
-    font-size: 18px;
-    color: white:aliceblue
+.hdr_li a:hover{
+    color: rgb(90, 89, 89);
+    height: 2px;
+    text-decoration: underline;
+    text-decoration-color: rgb(143, 142, 142);
+    text-decoration-thickness: 2px;
+    transition: 0.5s;
+}
+.active {
+    background-color: rgb(147, 66, 66);
 }
 
 .back1 {
@@ -42,13 +70,52 @@ nav li a {
     background-size: cover;
 }
 
+.index-title {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    margin: 2rem;
+    /* padding-inline: 2rem; */
+    background-color: rgb(6, 7, 38, 0.8);
+    border-radius: .5rem;
+}
+
+.index-title #title {
+    display: flex;
+    position: left;
+    padding: 2em 0;
+    font-size: 5vh;
+    text-align: center;
+    margin: 10% 0;
+    color: aliceblue;
+}
+
 .self_photo {
-    height: 500px;
-    float: right;
+    display: inline-block;
+    margin: 2rem;
+    border-radius: .5rem;
+    height: 50vh;
+    position: right;
+}
+
+.index-main {
+    margin: 2rem;
+    background-color: rgb(13, 56, 94);
+    padding: 2rem;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: .5rem;
 }
 
 .back2 {
     background-image: url("assets/donna-elliot-dwXNSRmxHQY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.back3 {
+    background-image: url("assets/karsten-winegeart-6NAbqcv3fpg-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,6 +126,52 @@ section {
 }
 
 .absect {
-    background-color: aliceblue;
+    background-color: rgb(15, 47, 76, .8);
+    margin: 2rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.absect img {
+    float: right;
+    margin: 15px;
+    padding: 1px;
+    height: 120px;
+}
+
+#about {
+    font-size: 45px;
+    text-align: center;
+}
+
+#intro {
+    font-size: 24px;
+}
+
+#intro_desc {
+    font-size: 18px;
+}
+
+#scuba-img {
+    margin: 0 1rem 1rem 1rem;
+    display: inline-block;
+    height: 10vh;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(6, 7, 38);
+    color: rgb(60, 91, 119);
+    text-align: center;
+}
+
+footer a img {
+    height: 6vh;
+    padding: 8px;
 }
