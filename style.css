@@ -1,5 +1,4 @@
 * {
-    /* font-size: large; */
     font-family: sans-serif;
     box-sizing: border-box;
 }
@@ -19,7 +18,6 @@ main {
     color: aliceblue;
     text-transform: uppercase;
     margin: 0;
-    /* background-color: rgb(12, 27, 69); */
 }
 
 .header {
@@ -75,7 +73,6 @@ main {
     color: aliceblue;
     justify-content: space-evenly;
     margin: 2rem;
-    /* padding-inline: 2rem; */
     background-color: rgb(6, 7, 38, 0.8);
     border-radius: .5rem;
 }
