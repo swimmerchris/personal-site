@@ -9,6 +9,10 @@ html, body {
     margin: 0;
 }
 
+main {
+    margin-bottom: 10vh;
+}
+
 .logo {
     font-size: 18px;
     text-align: center;
@@ -122,8 +126,38 @@ section {
 }
 
 .absect {
-    background-color: aliceblue;
+    background-color: rgb(15, 47, 76, .8);
+    margin: 2rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.absect img {
+    float: right;
+    margin: 15px;
+    padding: 1px;
+    height: 120px;
+}
+
+#about {
+    font-size: 45px;
+    text-align: center;
+}
+
+#intro {
+    font-size: 24px;
+}
+
+#intro_desc {
+    font-size: 18px;
+}
+
+#scuba-img {
+    margin: 0 1rem 1rem 1rem;
+    display: inline-block;
+    height: 10vh;
 }
 
 footer {
@@ -131,8 +165,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 7vh;
     background-color: rgb(6, 7, 38);
-    color: aliceblue;
+    color: rgb(60, 91, 119);
     text-align: center;
 }
 
