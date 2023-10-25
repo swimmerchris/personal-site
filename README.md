@@ -11,3 +11,4 @@ There structure of which is as follows:
 5. javascript.js
 6. assets (images and the like)
 
+![Screenshot of Home Page](./assets/site%20page%20screenshot.png)
