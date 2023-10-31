@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Contact</title>
 </head>
-<body>
+<body class="back4">
     <header class="header">
         <h1 class="logo">Chris Bryan</h1>
         <nav class="hdr_nav">
@@ -13,9 +14,23 @@
                 <li class="hdr_li"><a href="./index.html">Home</a></li>
                 <li class="hdr_li"><a href="./about.html">About</a></li>
                 <li class="hdr_li"><a href="./portfolio.html">Portfolio</a></li>
-                <li class="hdr_li"><a href="./contact.html">Contact</li>
+                <li class="hdr_li"><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <h1>Contact Me</h1>
+        <form action="./submissions.html" target="_self" onsubmit="return confirm('Are you sure you want to submit?');"> 
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" value="">
+            <label for="lname" >Last Name:</label>
+            <input type="text" id="lname" name="lname" value="">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" value="">
+            <label for="tarea">Message</label>
+            <textarea id="tarea" name="tarea" rows="6" cols="30" value=""></textarea>
+            <input type="submit" id="submit_btn" value="Submit">
+        </form>
+    </main>
 </body>
 </html>

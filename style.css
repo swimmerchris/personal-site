@@ -118,6 +118,20 @@ main {
     background-size: cover;
 }
 
+.back4 {
+    background-image: url("assets/nattu-adnan-atSUvc1hMwk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+
 section {
     display: block;
 }
