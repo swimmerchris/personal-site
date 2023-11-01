@@ -125,11 +125,43 @@ main {
     background-size: cover;
 }
 
+.contact_main {
+    background-color:  rgb(15, 47, 76, .8);
+    height: 80vh;
+    margin: 2rem;
+    border-radius: .5rem;
+}
+
+#contact_title {
+    font-size: 2em;
+    color: aliceblue;
+    padding: 2em 0em 0em 3em;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    
+    margin: 0 20%;
+    font-size: 25px;
+}
+
+form > label {
+    color: aliceblue;
+    text-decoration: underline solid;
+}
+
+.fields {
+    width: 100%;
+    font-size: 25px;
+}
+
+#submit_btn {
+    width: 50%;
+    align-self: center;
+    margin: 2em;
+    color: aliceblue;
+    background-color: rgb(15, 15, 43);
+    border-radius: .5em;
 }
 
 section {
