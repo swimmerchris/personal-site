@@ -32,16 +32,13 @@ main {
 
 .hdr_ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 1rem;
-    overflow: hidden;
+    overflow: auto;
 }
 
-.hdr_li {
-    float: right;
-}
-
-.hdr_li a{
+.hdr_li a {
     display: block;
     text-transform: uppercase;
     font-size: 18px;
@@ -55,8 +52,9 @@ main {
     text-decoration: underline;
     text-decoration-color: rgb(143, 142, 142);
     text-decoration-thickness: 2px;
-    transition: 0.5s;
+    transition: 0.7s;
 }
+
 .active {
     background-color: rgb(147, 66, 66);
 }
@@ -118,6 +116,60 @@ main {
     background-size: cover;
 }
 
+.back4 {
+    background-image: url("assets/nattu-adnan-atSUvc1hMwk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact_main {
+    background-color:  rgb(15, 47, 76, .8);
+    height: 80vh;
+    margin: 2rem;
+    border-radius: .5rem;
+}
+
+#contact_title {
+    font-size: 2em;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 2em 0em 0em 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    font-size: 25px;
+}
+
+form > label {
+    color: aliceblue;
+    text-decoration: underline solid;
+}
+
+.fields {
+    width: 100%;
+    font-size: 25px;
+}
+
+#submit_btn {
+    width: 50%;
+    align-self: center;
+    height: 3em;
+    margin: 2em;
+    color: aliceblue;
+    background: linear-gradient(to left top, rgb(20, 19, 84), rgb(18, 104, 169));
+    border-radius: .5em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#submit_btn:hover {
+    background: linear-gradient(to right top, rgb(64, 58, 233), rgb(18, 104, 169));;
+}
+
 section {
     display: block;
 }
@@ -171,4 +223,46 @@ footer {
 footer a img {
     height: 6vh;
     padding: 8px;
+}
+
+#submissions_message {
+    display: flex;
+    height: 80vh;
+    margin: 2rem;
+    font-size: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    color: aliceblue;
+    border-radius: .5rem;
+    background-color: rgb(15, 47, 76, .8);
+}
+
+
+@media screen and (max-width: 1024px){
+    .index-title {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .index-title img {
+        height: 25vh;
+    }
+
+    .index-title #title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .hdr_ul {
+         padding: 5%;
+    }
+}
+
+@media screen and (max-width: 480px){
+   .hdr_ul {
+        padding: 5%;
+   }
 }

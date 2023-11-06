@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact</title>
+</head>
+<body class="back4">
+    <header class="header">
+        <h1 class="logo">Chris Bryan</h1>
+        <nav class="hdr_nav">
+            <ul class="hdr_ul">
+                <li class="hdr_li"><a href="./index.html">Home</a></li>
+                <li class="hdr_li"><a href="./about.html">About</a></li>
+                <li class="hdr_li"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="hdr_li"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact_main">
+        <h1 id="contact_title">Contact Me:</h1>
+        <form action="./submissions.html" target="_self" onsubmit="return confirm('Are you sure you want to submit?');"> 
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname"  class="fields" name="fname" value="" required>
+            <label for="lname" >Last Name:</label>
+            <input type="text" id="lname" class="fields" name="lname" value="" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email"  class="fields" name="email" value="" required>
+            <label for="tarea">Message:</label>
+            <textarea id="tarea" name="tarea" class="fields" rows="6" cols="30" value=""></textarea>   
+            <input type="submit" id="submit_btn" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/christopherbryan1/">
+            <img src="https://gleaming-toffee-9a52b1.netlify.app/images/linkedin.svg" alt="linkedin">
+        </a>
+    </footer>
+</body>
+</html>
