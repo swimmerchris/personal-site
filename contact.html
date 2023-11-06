@@ -23,11 +23,11 @@
         <h1 id="contact_title">Contact Me:</h1>
         <form action="./submissions.html" target="_self" onsubmit="return confirm('Are you sure you want to submit?');"> 
             <label for="fname">First Name:</label>
-            <input type="text" id="fname"  class="fields" name="fname" value="">
+            <input type="text" id="fname"  class="fields" name="fname" value="" required>
             <label for="lname" >Last Name:</label>
-            <input type="text" id="lname" class="fields" name="lname" value="">
+            <input type="text" id="lname" class="fields" name="lname" value="" required>
             <label for="email">Email Address:</label>
-            <input type="email" id="email"  class="fields" name="email" value="">
+            <input type="email" id="email"  class="fields" name="email" value="" required>
             <label for="tarea">Message:</label>
             <textarea id="tarea" name="tarea" class="fields" rows="6" cols="30" value=""></textarea>   
             <input type="submit" id="submit_btn" value="Submit">
